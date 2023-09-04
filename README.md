@@ -1,2 +1,8 @@
-# travel-react-tailwind
-this is my first react app, it's just practice for me.
+### This app just practice for me
+
+# Using
+
+React
+HTML
+Css-Tailwind
+JavaScript
