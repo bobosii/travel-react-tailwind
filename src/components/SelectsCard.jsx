@@ -1,11 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from 'react'
-import BaraBora from "../assets/borabora.jpg";
-import BaraBora2 from "../assets/borabora2.jpg";
-import KeyWest from "../assets/keywest.jpg";
-import Maldives from "../assets/maldives.jpg";
-import Maldives2 from "../assets/maldives2.jpg";
-import Maldives3 from "../assets/maldives3.jpg";
+
 
 const SelectsCard = (props) => {
   return (
