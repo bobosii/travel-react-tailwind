@@ -1,14 +1,16 @@
-import React from 'react';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import Destinations from './components/Destinations';
+import React from "react";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Destinations from "./components/Destinations";
+import Search from "./components/Search";
 
 function App() {
   return (
-    <div >
+    <div>
       <Navbar />
-      <Hero/>
-      <Destinations/>
+      <Hero />
+      <Destinations />
+      <Search />
     </div>
   );
 }
