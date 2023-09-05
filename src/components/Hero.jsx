@@ -1,12 +1,41 @@
-import React from 'react'
-import beachVid from "../assets/beachVid.mp4"
+import React from "react";
+import beachVid from "../assets/beachVid.mp4";
+import { AiOutlineSearch } from "react-icons/ai";
 
 const Hero = () => {
   return (
     <div className="w-full h-screen relative -z-10">
-        <video src={beachVid}/>
+      <video
+        className="w-full h-full object-cover"
+        src={beachVid}
+        autoPlay
+        loop
+        muted
+      />
+      <div className="absolute top-0 left-0 w-full h-full bg-gray-900/30"></div>
+      <div className="absolute top-0 w-full h-full flex flex-col justify-center text-center text-white p-4">
+        <h1>First Class Travel</h1>
+        <h2 className="py-4">Top 1% Locations Worlwide</h2>
+        <form
+          className="flex justify-between items-center max-w-[700] w-full mx-auto border p-1
+        rounden-md bg-gray-100/90 text-black"
+        >
+          <div>
+            <input
+              className="bg-transparent w-[300px] sm:w-[400px] font-[Poppins] focus:outline-none"
+              type="text"
+              placeholder="Search Destination"
+            />
+          </div>
+          <div>
+            <button>
+              <AiOutlineSearch size={20} className="icon text-white" style={{color: "#ffffff"}} />
+            </button>
+          </div>
+        </form>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;
